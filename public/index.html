@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student API</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 40px;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    code {
+      background: #eef;
+      padding: 4px 6px;
+      border-radius: 4px;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    footer {
+      margin-top: 30px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Student Management API</h1>
+    <p>This is a Node.js + Express backend application deployed to production.</p>
+
+    <h2>Available Endpoints</h2>
+    <ul>
+      <li><code>GET /api/students</code> – Get all students</li>
+      <li><code>GET /api/students/:id</code> – Get student by ID</li>
+      <li><code>POST /api/students</code> – Create a new student</li>
+      <li><code>PUT /api/students/:id</code> – Update student</li>
+      <li><code>DELETE /api/students/:id</code> – Delete student</li>
+      <li><code>GET /api/students/filter</code> – Filter students</li>
+      <li><code>GET /api/students/average-age</code> – Average age</li>
+    </ul>
+
+    <h2>Technology Stack</h2>
+    <ul>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>MongoDB Atlas</li>
+      <li>Mongoose</li>
+    </ul>
+
+    <footer>
+      <p>Practice Task 11 – Deployment and Git</p>
+    </footer>
+  </div>
+</body>
+</html>
